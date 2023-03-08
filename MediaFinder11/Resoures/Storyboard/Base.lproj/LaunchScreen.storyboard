@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wrM-Dv-TPh">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="jBx-Zt-T2W">
+            <objects>
+                <viewController id="wrM-Dv-TPh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w3f-he-ab9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2121 copy" translatesAutoresizingMaskIntoConstraints="NO" id="hj7-1m-0JD">
+                                <rect key="frame" x="16" y="208.66666666666663" width="361" height="372"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Media Finder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgA-5D-mo6">
+                                <rect key="frame" x="75" y="621" width="243" height="92"/>
+                                <color key="tintColor" red="0.53725492949999998" green="0.26274511220000002" blue="0.56862747670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" systemColor="systemIndigoColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eI7-kP-Ykc"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hj7-1m-0JD" firstAttribute="height" secondItem="w3f-he-ab9" secondAttribute="height" multiplier="0.43662" id="05q-2W-KQF"/>
+                            <constraint firstItem="XgA-5D-mo6" firstAttribute="top" secondItem="hj7-1m-0JD" secondAttribute="bottom" constant="40.333333333333371" id="7xw-aP-DwS"/>
+                            <constraint firstItem="hj7-1m-0JD" firstAttribute="centerY" secondItem="eI7-kP-Ykc" secondAttribute="centerY" multiplier="0.9" id="TNt-HW-Qn6"/>
+                            <constraint firstItem="XgA-5D-mo6" firstAttribute="height" secondItem="w3f-he-ab9" secondAttribute="height" multiplier="0.107981" id="jbO-kI-eC7"/>
+                            <constraint firstItem="XgA-5D-mo6" firstAttribute="centerX" secondItem="hj7-1m-0JD" secondAttribute="centerX" id="kqe-vE-3KZ"/>
+                            <constraint firstItem="hj7-1m-0JD" firstAttribute="centerX" secondItem="eI7-kP-Ykc" secondAttribute="centerX" id="lhM-LQ-RXV"/>
+                            <constraint firstItem="hj7-1m-0JD" firstAttribute="width" secondItem="w3f-he-ab9" secondAttribute="width" multiplier="0.918575" id="nHf-tT-0dv"/>
+                            <constraint firstItem="XgA-5D-mo6" firstAttribute="width" secondItem="w3f-he-ab9" secondAttribute="width" multiplier="0.618321" id="rOF-o5-eMO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CR5-8v-121" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="773.28244274809163" y="-170.42253521126761"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2121 copy" width="2083" height="1658"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

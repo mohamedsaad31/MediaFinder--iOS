@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Need access to add profile photo</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Need camera access to get profile photo</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Need to access the user location to get the address</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need to access the user location to get the address</string>
+</dict>
+</plist>
