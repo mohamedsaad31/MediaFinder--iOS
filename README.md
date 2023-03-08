@@ -1,6 +1,8 @@
 # MediaFinder--iOS
 Media Finder is a native iOS application built using Swift, following the Model-View-Controller (MVC) architectural pattern and incorporating best design practices. The application offers users a comprehensive media search and playback tool that allows for seamless and intuitive exploration and consumption of favorite media content.
 
+## Screenshots
+![630879EF-B106-432C-A909-8BE05D2B001C](https://user-images.githubusercontent.com/78662755/223786728-bdc739a2-85bc-41e6-9cc3-23c4f5304854.JPEG)
 
 
 
@@ -46,4 +48,5 @@ Media Finder is a native iOS application built using Swift, following the Model-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/) © MohammedSaad
+
 
